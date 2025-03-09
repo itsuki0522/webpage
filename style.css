@@ -1,0 +1,126 @@
+body{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header li{
+    color: black;
+    margin-left: 60px;
+    list-style:none;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li:hover{
+    opacity: 0.4;
+}
+
+main{
+    height: 370px;
+    display: flex;
+    background-color: beige;
+}
+
+.intro-main,.study-main,.dream-main{
+    height: 370px;
+    background-color: beige;
+}
+
+
+main p,main h2{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.intro-main{
+    display: flex;
+    justify-content: space-between;
+    font-size:18px;
+}
+
+.intro-main h2{
+    margin-top: -1px;
+    text-align: center;
+}
+
+
+.study-main table th{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+}
+
+.study-main table td{
+    border: 1px solid black;
+    height: 80px;
+}
+
+.dream-main img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+.dream-main p{
+    font-size: 20px;
+}
+
+.dream-main h2{
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    /*　画面サイズ 960px以上から適用　*/
+    main p,main h2{
+    font-size: 30px;
+}
+main{
+    height: 550px;
+    display: flex;
+    background-color: beige;
+}
+
+.intro-main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 27px;
+    height: 540px;
+}
+.study-main table th{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    font-size: 32px;
+}
+
+.study-main table td{
+    border: 1px solid black;
+    height: 120px;
+    font-size: 26px;
+}
+.dream-main p{
+    font-size: 30px;
+}
+
+.intro-main,.study-main,.dream-main{
+    height: 550px;
+    background-color: beige;
+}
+}
+
